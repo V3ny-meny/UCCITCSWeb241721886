@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.subtitle {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#img-div {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #bdc3c7;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #95a5a6;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+#tribute-info {
+    margin: 30px 0;
+}
+
+#tribute-info h2 {
+    color: #2c3e50;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#tribute-info h3 {
+    color: #34495e;
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+}
+
+#tribute-info p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#tribute-info ul {
+    margin: 15px 0 15px 30px;
+}
+
+#tribute-info li {
+    margin-bottom: 8px;
+}
+
+blockquote {
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+blockquote footer {
+    text-align: right;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: #7f8c8d;
+}
+
+.additional-info {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#tribute-link {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+    color: #1c5980;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    #title {
+        font-size: 24px;
+    }
+    
+    #tribute-info h2 {
+        font-size: 20px;
+    }
+    
+    #tribute-info h3 {
+        font-size: 18px;
+    }
+}
